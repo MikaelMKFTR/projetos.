@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desconto na compra</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="card">
+    <h1>Desconto na compra</h1>
+
+    <label for="compra">Valor da compra (R$)</label>
+    <input type="number" id="compra" placeholder="Digite o valor">
+
+    <button>Calcular</button>
+
+    <div class="resultado">
+      <p>Valor da compra: <span id="valor-compra">R$ 0,00</span></p>
+      <p>Valor do desconto: <span id="valor-desconto">R$ 0,00</span></p>
+      <p>Valor com desconto: <span id="valor-final">R$ 0,00</span></p>
+    </div>
+
+    <ul class="regras">
+      <li>Maior que R$ 100: 5% de desconto</li>
+      <li>Maior que R$ 500: 10% de desconto</li>
+    </ul>
+  </main>
+</body>
+</html>
